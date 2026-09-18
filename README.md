@@ -49,6 +49,47 @@ To hide a page while you're still drafting it, add `nav_exclude: true` to its
 front matter — it stays in the repo and is reachable by direct link, but won't
 appear in the site menu.
 
+## Adding a screen recording
+
+Markdown has no native video syntax, but plain HTML works inside a Markdown
+file, so a `<video>` tag embedded directly in the page works fine alongside
+your regular screenshots. Three ways to host the actual file, roughly in order
+of least to most effort:
+
+1. **Drag the video into a GitHub issue or PR comment box** (not the repo file
+   uploader). GitHub uploads it and gives you back a URL — paste that as the
+   `src` below. No size planning, no separate account. Try this first.
+2. **Upload it into `assets/videos/` in the repo**, same as screenshots go in
+   `assets/images/`. Works, but GitHub warns over 50MB and blocks over 100MB
+   per file, and a repo full of video slows down every future clone/rebuild —
+   fine for one or two short clips, not for a recording on every page.
+3. **Upload to YouTube as "unlisted"** and embed with an `<iframe>` instead —
+   no size limit ever, more setup up front. The better long-term answer if
+   recordings end up on most modules.
+
+Embed code, once you have a URL from option 1 or 2:
+
+```html
+<video controls width="100%">
+  <source src="../assets/videos/your-recording.mp4" type="video/mp4">
+  Your browser doesn't support embedded video —
+  <a href="../assets/videos/your-recording.mp4">download the recording</a> instead.
+</video>
+```
+
+For a YouTube "unlisted" video (option 3):
+
+```html
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/VIDEO_ID"
+  title="Description of what the video shows" frameborder="0" allowfullscreen></iframe>
+```
+
+For a short, silent interaction (a couple of seconds — a menu opening, a
+dropdown appearing) rather than a full walkthrough, an animated GIF is often
+easier: it uses the exact same `![alt text](../assets/images/your-file.gif)`
+syntax as a still screenshot, no HTML needed. No sound and it compresses worse
+than real video, so keep GIFs short.
+
 ## If the structure changes
 
 - **Reordering** modules or pages: just change the `nav_order` number. Top-level
