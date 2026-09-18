@@ -6,7 +6,7 @@ description: A step-by-step guide for workshop participants using the Expert Nat
 
 # IMPORTANT: this must match your repo name exactly, with a leading slash.
 # If you rename the repo, update this line to match or the site's links/styling will break.
-baseurl: "/Expert-Nation-Guide"
+baseurl: "/expert-nation-guide"
 
 remote_theme: just-the-docs/just-the-docs
 plugins:
