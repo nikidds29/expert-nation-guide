@@ -16,6 +16,8 @@ modules/
     item-sets.md
     resource-templates.md
   03-advanced-queries.md                   Module 3
+  property-reference.md                    Master field/property lookup table,
+                                            linked from Module 3 and Module 5
   04-organising-person-records.md          Module 4
   05-adding-person-records.md              Module 5 (parent page)
   adding-person-records/
