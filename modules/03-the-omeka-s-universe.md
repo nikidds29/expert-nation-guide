@@ -18,14 +18,14 @@ this collection actually contains.
   to collect **Person records only**; the smaller, supporting record types
   (Life events, Places, Military service, and the rest) aren't organised
   into item sets themselves.
-- **Resource templates** define what an item looks like: which fields
+- **Resource templates** define what an item looks like and which fields
   appear when you create or edit it. Every item uses exactly one resource
   template. One of the 17 templates, **Person**, is the record type this
   whole guide is built around; the other 16 define the smaller record types
   that get linked to a Person to build out their full biography.
 
 Put together: a **Person** is an **item**, built from the **Person resource
-template**, and optionally grouped into an **item set** alongside other
+template**, and grouped into an **item set** alongside other
 Person records. Everything else you'll come across (a Life event, a Death
 record, a Place) is also an item, just built from a different resource
 template, and linked *to* a Person rather than filed in an item set of its
