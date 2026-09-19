@@ -42,5 +42,7 @@ see this same mix, some fields a fixed list, others free text, on
 other sub-records too; it's always worth checking whether a field is a
 dropdown or a text box before assuming you can type anything into it.
 
+Note that Occupation has a linked template, Organisation. This is a linked field. It is better to enter Organisation details from the Occupation template.
+
 Once Title (and whichever other fields apply) are done, click **Add
 and select item** as before.
