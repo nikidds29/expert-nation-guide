@@ -33,7 +33,7 @@ period of military service, and so on).
 | Military award | A specific award or honour received during military service. |
 | Military service | Details of a person's military service: rank and company. |
 | Occupation eventlet | A specific job or occupation held by a person. |
-| Organisation | An organisation record, linked from fields such as Professional Association Memberships. |
+| Organisation | An organisation record, linked from fields such as Occupation and Professional Association Memberships. |
 | Place | A location, linked from the Person's Place of birth and Place of death fields. |
 | Professional association member | A person's membership in a professional association. |
 | Relationship | A relationship between two people. |
