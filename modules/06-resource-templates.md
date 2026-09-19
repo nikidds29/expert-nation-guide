@@ -37,7 +37,7 @@ period of military service, and so on).
 | Place | A location, linked from the Person's Place of birth and Place of death fields. |
 | Professional association member | A person's membership in a professional association. |
 | Relationship | A relationship between two people. |
-| Scholarship award | An academic scholarship or award received. |
+| Scholarship award | An academic scholarship received, linked from Tertiary Education. |
 | Schooling | Details of a person's early/primary education. |
 | Tertiary study | Details of a person's university or tertiary education. |
 
