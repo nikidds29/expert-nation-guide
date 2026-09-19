@@ -11,9 +11,8 @@ Collections in Omeka-S are organised around three ideas: **items**,
 so before anything else, here's the short version of each, specific to what
 this collection actually contains.
 
-- **Items** are the individual records. Every entry in the database, every
-  Person, but also every Life event, Death, Place, Military service and so
-  on attached to a Person, is an item. This collection currently has 17
+- **Items** are the individual records. The primary item in this database is the
+  Person record, but each person record has a set of attached sub-records for documenting life events, relationships and other details. These sub-records are also items. Together with the Person item, the collection currently has 17
   different kinds of item in use.
 - **Item Sets** group items together. In this collection, item sets are used
   to collect **Person records only**; the smaller, supporting record types
