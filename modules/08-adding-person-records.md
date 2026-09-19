@@ -25,17 +25,14 @@ click **Items**, then **Add new item** (top right).
 ![Items screen, with the sidebar Items link and Add new item button highlighted](../assets/images/adding-person-records-01-add-new-item.png)
 
 This works for every resource template in the system, not only the ones
-covered here. The collection also holds resource templates for other
-projects entirely (the "Relationship" records above are one example). This
-guide only walks through building a **Person** record and the sub-templates
+covered here. This
+guide walks through building a **Person** record and the sub-templates
 that get linked to one (Life event, Death, Military service, and the
-rest), not every resource template that exists in the collection.
+rest).
 
-A quick note on an icon you'll see repeatedly from here on: several fields
-on the Add Item screen show a small cube icon next to them: the same icon
-used for the **Items** link in the sidebar and at the top of this page. It
-marks a field that links to another Item, rather than to an Item Set (which
-uses a different icon) or a plain value. This guide calls it **the Items
+**Note** something you'll see repeatedly from here on in several fields
+within the Add Item screen is the small cube icon next to them. It
+marks a field that links to another Item or a plain value. This guide calls it **the Items
 icon** wherever it comes up.
 
 ## Choosing the Person template
@@ -50,7 +47,7 @@ because you'll see it again on other record types.
 **Resource template** and **Class** answer two different questions, which
 is easy to blur together:
 
-- The **resource template** controls what you see and do on this screen:
+- The **resource template** controls what you see and do on this screen,
   which fields appear, what order they're in, their instructions, and
   which ones are required. It's Omeka's practical, editable form.
 - The **Class** is a formal label for what *kind* of thing the record is,
