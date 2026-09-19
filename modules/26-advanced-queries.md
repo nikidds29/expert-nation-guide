@@ -6,8 +6,8 @@ nav_order: 26
 
 # Advanced Queries
 
-Advanced search is most useful in this collection for narrowing by
-**class** or by **resource template**, rather than for keyword or
+Advanced search is useful in this collection for narrowing by
+**class** or by **resource template**, but can also be used for keyword or
 value search.
 
 ## Where to find it
