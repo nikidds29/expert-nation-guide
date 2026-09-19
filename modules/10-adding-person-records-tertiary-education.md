@@ -33,6 +33,8 @@ pattern introduced under
 institution and "Was the degree completed?" are both optional, and can
 be left blank.
 
+Note that Tertiary Education has a linked template, Scholarship Award. This is a linked field. It is better to enter Scholarship information details from the Tertiary Education template.
+
 As before, once Title and Degree / qualification / courses are filled
 in, click **Add and select item** to create the record and link it into
 the Tertiary education field on the Person you're building.
