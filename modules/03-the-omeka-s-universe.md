@@ -6,9 +6,8 @@ nav_order: 3
 
 # The Omeka-S Universe
 
-Everything in this collection is organised around three ideas: **items**,
-**item sets**, and **resource templates**. They're simple on their own, but
-the platform makes a lot more sense once you can see how they fit together,
+Collections in Omeka-S are organised around three ideas: **items**,
+**item sets**, and **resource templates**. The platform makes a lot more sense once you can see how they fit together,
 so before anything else, here's the short version of each, specific to what
 this collection actually contains.
 
