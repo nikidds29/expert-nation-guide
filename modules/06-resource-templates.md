@@ -6,7 +6,7 @@ nav_order: 6
 
 # Resource Templates
 
-A **resource template** defines what an item looks like: which fields show
+A **resource template** defines what an item looks like by determining which fields show
 up when you create or edit it, what type each field is (text, dropdown, a
 link to another item), and which ones are required. Every item uses exactly
 one resource template. It's chosen from the "Resource template" dropdown
@@ -15,8 +15,8 @@ match.
 
 This collection currently has **17 resource templates** in use. One of
 them, **Person**, is the core biographical record this whole guide is built
-around. The other 16 each define a smaller, supporting record type that
-gets linked to a Person to build out their biography (a place, a death, a
+around. The other 16 each define smaller, supporting record types that
+get linked to a Person to build out their biography (a place, a death, a
 period of military service, and so on).
 
 ![Resource templates admin list, showing Label, Class and Owner for all 17 templates, owner names blurred](../assets/images/resource-templates-01-admin-list.png)
@@ -43,9 +43,9 @@ period of military service, and so on).
 
 ## Why this matters
 
-The resource template an item uses is what determines which fields it has,
-so if you're ever unsure why a field is missing (or unexpectedly present)
-on a record, checking the resource template selected at the top of the
-"Add Item" screen is the first thing to look at. It's also what "Advanced
-Queries" filters by when you narrow a search to Person records only: see
+The resource template an item uses determines which fields appear.
+If you're ever unsure why a field is missing (or unexpectedly present)
+on a record, check the resource template selected at the top of the
+"Add Item" screen is. "Advanced
+Queries" can also be used to filter your search by resource template: see
 [Advanced Queries](26-advanced-queries.md).
