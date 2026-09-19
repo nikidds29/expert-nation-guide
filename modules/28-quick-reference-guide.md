@@ -40,7 +40,7 @@ Person record rather than a link to another item.
 | Naming note | `expn:namingNote` | Text | N/A |
 | Person role | `expn:personRole` | Dropdown | N/A |
 | Early education | `expn:earlyEducation` | Resource link (Items) | Schooling |
-| Tertiary education | `schema:hasCredential` | Resource link (Items) | Tertiary study |
+| Tertiary education | `schema:hasCredential` | Resource link (Items) | Tertiary study, Scholarship Award |
 | Start date | `schema:startDate` | Date | N/A |
 | Country of birth | `expn:countryOfBirth` | Dropdown | N/A |
 | Combined start dates | `expn:combinedStartDate` | Date | N/A |
@@ -62,7 +62,7 @@ Person record rather than a link to another item.
 | Contact details or URL | `schema:contactPoint` | Text or URI (toggle) | N/A |
 | Survived | `expn:survived` | Dropdown | N/A |
 | Email address | `schema:email` | Text | N/A |
-| Occupations | `schema:hasOccupation` | Resource link (Items) | Occupation eventlet |
+| Occupations | `schema:hasOccupation` | Resource link (Items) | Occupation eventlet, Organisation |
 | Professional Association Memberships | `schema:memberOf` | Resource link (Items) | Professional association member |
 | Language spoken | `schema:knowsLanguage` | Dropdown | N/A |
 | Other events | `schema:performerIn` | Resource link (Items) | Eventlet |
