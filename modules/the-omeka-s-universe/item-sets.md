@@ -7,13 +7,13 @@ nav_order: 2
 
 # Item Sets
 
-An **item set** is Omeka S's way of grouping items into a named collection —
+An **item set** is Omeka S's way of grouping items into a named collection,
 useful for browsing a defined subset of records instead of everything at
 once.
 
 In this collection, item sets are used to group **Person records only**.
 None of the 16 supporting record types (Life event, Death, Place, Military
-service, and so on) are organised into item sets themselves — they're
+service, and so on) are organised into item sets themselves. They're
 linked to a Person instead (see [Items](items.md)), and reached from there,
 not by browsing an item set directly.
 
@@ -21,19 +21,19 @@ You can see this on the Person template itself: the **isPartOf** field is
 what assigns a Person record to an item set. It's the last field on the
 Person "Add Item" screen (see the
 [Person Template Field Reference](../property-reference.md)), and it's a
-link to an Item Set rather than to another Item — the one field on the
+link to an Item Set rather than to another Item: the one field on the
 whole Person template that behaves this way.
 
 <!--
-Nicole — this is the one page where I don't have collection-specific detail
+Nicole: this is the one page where I don't have collection-specific detail
 yet: which item sets currently exist (their names, and what each one is
-for — e.g. a particular project or cohort of people), and a screenshot of
+for, e.g. a particular project or cohort of people), and a screenshot of
 the Item Sets browse screen and/or the isPartOf field being set on a Person
 record. Once you drop those in, I'd suggest a short list here along the
 lines of:
 
-- **[Item set name]** — [what it's for / which people it covers]
-- **[Item set name]** — [what it's for / which people it covers]
+- **[Item set name]**: [what it's for / which people it covers]
+- **[Item set name]**: [what it's for / which people it covers]
 -->
 
 ## Why this matters

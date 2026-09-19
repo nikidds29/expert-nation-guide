@@ -9,13 +9,13 @@ nav_order: 40
 This collection has exactly one item set, called **People**, and every
 Person record belongs to it (see
 [Item Sets](the-omeka-s-universe/item-sets.md) for how item sets work more
-generally). It's the fastest way to see person profiles specifically —
+generally). It's the fastest way to see person profiles specifically,
 rather than the individual sub-records (Life events, Places, Military
 service, and the rest) that also live in this database, but aren't
 organised into an item set of their own.
 
 <!--
-Nicole — names, owner values, and person thumbnails in all three
+Nicole: names, owner values, and person thumbnails in all three
 screenshots below are pixelated before publishing, since this is a public
 repo and these are live records. Only the layout and the highlighted
 controls are meant to be legible.
@@ -31,7 +31,7 @@ In the admin sidebar, under **Resources**, click **Item sets**. Click
 ## 2. Viewing every person record: Linked resources
 
 On the People item set's page, click the **Linked resources** tab. This
-lists every item connected to the item set through the `isPartOf` field —
+lists every item connected to the item set through the `isPartOf` field,
 and since only Person records use that field to join People, what you get
 is exactly every person profile in the collection, with nothing else mixed
 in.
@@ -55,6 +55,6 @@ directly.
 The main Items screen mixes Person records in with every Life event,
 Death, Place, and other supporting record in the database (see
 [Items](the-omeka-s-universe/items.md)). Starting from the People item set
-skips that — you land on person profiles only, without having to build an
+skips that: you land on person profiles only, without having to build an
 Advanced Search first. See [Advanced Queries](03-advanced-queries.md) for
 when you do need to search within that list, rather than just browse it.

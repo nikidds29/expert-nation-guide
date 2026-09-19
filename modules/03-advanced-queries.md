@@ -7,11 +7,11 @@ nav_order: 30
 # Advanced Queries
 
 <!--
-Nicole — starter structure, replace/reorder freely:
+Nicole: starter structure, replace/reorder freely:
 
 1. What it's for / when to reach for it instead of the basic search box
 2. Where to find it in the interface
-3. Step-by-step walkthrough — most of your screenshots will live here
+3. Step-by-step walkthrough: most of your screenshots will live here
 4. Reference: the available fields/operators and what each one actually does
 5. Worked example(s)
 6. Common mistakes / troubleshooting
@@ -35,7 +35,7 @@ For the full label-to-property lookup table, see
 
 <!--
 Nicole: this section itself is still a good place for anything specific to
-*searching* rather than to the field list — the operators dropdown next to
+*searching* rather than to the field list: the operators dropdown next to
 each value box, whether multiple rows AND together, etc.
 -->
 
