@@ -63,7 +63,7 @@ Person record rather than a link to another item.
 | Survived | `expn:survived` | Dropdown | N/A |
 | Email address | `schema:email` | Text | N/A |
 | Occupations | `schema:hasOccupation` | Resource link (Items) | Occupation eventlet, Organisation |
-| Professional Association Memberships | `schema:memberOf` | Resource link (Items) | Professional association member |
+| Professional Association Memberships | `schema:memberOf` | Resource link (Items) | Professional association member, Organisation |
 | Language spoken | `schema:knowsLanguage` | Dropdown | N/A |
 | Other events | `schema:performerIn` | Resource link (Items) | Eventlet |
 | URL(s) | `schema:url` | URI + label | N/A |
