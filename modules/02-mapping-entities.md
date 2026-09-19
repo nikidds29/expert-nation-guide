@@ -16,7 +16,7 @@ military service, a relationship to someone else. Each of those smaller
 records is built from its own **resource template**, which defines
 exactly what fields it has. The diagram below shows how they all connect.
 
-![Diagram of the Person record data model in two tiers: Person links directly to twelve fields, each backed by a resource template (Life event covers both Life events and Birth). A second tier of shared templates, Place, Organisation and Scholarship award, are reused inside several of those templates' own forms rather than linked directly from Person, so each is drawn once with several lines feeding in. External links is the one exception, holding a plain web address rather than a linked item](../assets/images/mapping-entities-data-model_1.svg)
+![Diagram of the Person record data model in two tiers: Person links directly to twelve fields, each backed by a resource template (Life event covers both Life events and Birth). A second tier of shared templates, Place, Organisation and Scholarship award, are reused inside several of those templates' own forms rather than linked directly from Person, so each is drawn once with several lines feeding in. External links is the one exception, holding a plain web address rather than a linked item](../assets/images/mapping-entities-data-model.svg)
 
 The rest of this guide works through each of these in turn. It explains what a
 resource template is and does ([Resource Templates](06-resource-templates.md)),
