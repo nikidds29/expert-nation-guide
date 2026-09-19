@@ -55,6 +55,6 @@ directly.
 The main Items screen mixes Person records in with every Life event,
 Death, Place, and other supporting record in the database (see
 [Items](04-items.md)). Starting from the People item set
-skips that: you land on person profiles only, without having to build an
+skips that so you land on person profiles only, without having to build an
 Advanced Search first. See [Advanced Queries](26-advanced-queries.md) for
 when you do need to search within that list, rather than just browse it.
