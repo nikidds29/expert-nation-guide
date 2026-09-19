@@ -20,8 +20,7 @@ You can see this on the Person template itself: the **isPartOf** field is
 what assigns a Person record to an item set. It's the last field on the
 Person "Add Item" screen (see the
 [Quick reference guide](28-quick-reference-guide.md)), and it's a
-link to an Item Set rather than to another Item: the one field on the
-whole Person template that behaves this way. See
+link to an Item Set rather than to another Item. See
 [Making a Person Findable](22-adding-person-records-making-a-person-findable.md)
 for how to set it, and why it needs to be set on every Person record.
 
