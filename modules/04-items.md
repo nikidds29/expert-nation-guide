@@ -6,11 +6,11 @@ nav_order: 4
 
 # Items
 
-An **item** is Omeka S's word for a single record: one row in the database,
+An **item** is Omeka S's word for a single record, one row in the database,
 one thing you can open, edit, and search for. In this collection, every
 item is built from one of the **17 resource templates** currently in use
-(the [Resource Templates](06-resource-templates.md) page covers all 17), which
-falls into two rough groups:
+(the [Resource Templates](06-resource-templates.md) page covers all 17). These templates
+fall into two rough groups:
 
 - **Person**: the core biographical record. This is what you'll spend most
   of your time creating and editing, and the record type the rest of this
@@ -39,13 +39,13 @@ Because every one of those 17 record types is an item, the main **Items**
 browse screen in the admin area, and a plain search, mixes Person records
 in with every Life event, Death, Place, and Military service record too.
 There's no way to tell, at a glance, whether a result in a general items
-list is a full Person or a small supporting record for someone else's
+list is a full Person record or a small supporting record for someone else's
 Person record. You have to check which resource template it uses, or
 filter by resource template directly.
 
 If you want Person records specifically, the **People** item set is
-the easier path: it already holds every Person record and none of the
-supporting ones, so you can go straight to browsing people without
+the easiest path. It already holds every Person record and none of the
+supporting item records, so you can go straight to browsing people without
 filtering anything yourself. See
 [Viewing Person Records](07-viewing-person-records.md) for how.
 [Advanced Queries](26-advanced-queries.md) is the one to reach for
