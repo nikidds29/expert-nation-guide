@@ -39,8 +39,6 @@ lines of:
 ## Why this matters
 
 Because item sets only ever hold Person records here, they're a quick way
-to browse "everyone in project X" or "everyone in cohort Y" without wading
+to browse the collection's primary records without wading
 through Life events, Places, and all the other supporting records that
-share the same database. If you're looking for a defined group of people
-rather than searching by a specific field, checking whether an item set
-already covers that group is often faster than an Advanced Search.
+share the same database. 
