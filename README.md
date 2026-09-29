@@ -2,7 +2,7 @@
 
 Source for the workshop participant guide, published via GitHub Pages.
 
-Live site: _add the Pages URL here once it's enabled, e.g. https://nikidds29.github.io/expert-nation-guide/_
+Live site: https://nikidds29.github.io/expert-nation-guide/_
 
 ## Structure
 
