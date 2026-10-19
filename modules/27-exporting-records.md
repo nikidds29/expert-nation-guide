@@ -67,5 +67,3 @@ If the status doesn't change after a few minutes, refresh the page.
 Exported files are saved on the Expert Nation Omeka server and are listed under **Bulk Export** > **Past Exports**. If you no longer need an export, you can remove it using the bin icon.
 
 ---
-
-Prepared for Expert Nation Omeka workshop participants.
