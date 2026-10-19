@@ -19,19 +19,18 @@ fields, not one.
 
 Click the Items icon under **Tertiary education**, then **Create item**,
 and set **Resource template** to **Tertiary study** (Class fills in to
-match, as before).
-
-![Zoomed view of the Tertiary study panel, showing Title and Degree / qualification / courses both marked Required, alongside Educational institution and Was the degree completed?](../assets/images/adding-person-records-06-tertiary-education-fields.png)
-
-Here, both **Title** and **Degree / qualification / courses** carry the
+match, as before). Note the compulsory fields that carry the
 red asterisk. Omeka won't let you add this record until both are filled
-in. Title follows the exact same rule as every other linked sub-record:
+in. 
+
+Title follows the exact same rule as every other linked sub-record:
 use the **[Family name], [Initials] : [what the record is about]**
 pattern introduced under
 [Early education](09-adding-person-records-early-education.md), for example
-`Smith, J.H. : Bachelor of Arts, University of Melbourne`. Educational
-institution and "Was the degree completed?" are both optional, and can
-be left blank.
+`Smith, J.H. : Bachelor of Arts, University of Melbourne`. 
+
+Educational institution is a dropdown list. 
+![Item screen showing drop down list for education institution](../assets/images/adding-person-records-06-tertiary-education-fields.png)
 
 Note that Tertiary Education has a linked template, Scholarship Award. This is a linked field. It is better to enter Scholarship information details from the Tertiary Education template.
 
